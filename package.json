@@ -11,7 +11,7 @@
     "build:docs": "npm run build -- --scope=docs",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\""
   },
   "devDependencies": {
     "prettier": "^2.5.1",
