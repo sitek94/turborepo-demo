@@ -1,0 +1,28 @@
+{
+  "name": "website",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ui": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.4",
+    "@types/react": "17.0.38",
+    "autoprefixer": "^10.4.0",
+    "config": "workspace:*",
+    "eslint": "^7.32.0",
+    "next-transpile-modules": "^9.0.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.23",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.5.4"
+  }
+}
