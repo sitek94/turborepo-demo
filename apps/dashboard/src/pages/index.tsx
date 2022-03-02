@@ -14,6 +14,9 @@ const Home: NextPage = () => {
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <h1 className="text-6xl font-bold mb-8">Dashboard</h1>
         <Card>
+          <p className="text-lg">
+            This button comes from <code>UI</code> package
+          </p>
           <Button />
         </Card>
       </main>
