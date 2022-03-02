@@ -5,11 +5,13 @@
   "license": "MIT",
   "files": [
     "eslint-next.js",
-    "eslint-nest.js"
+    "eslint-nest.js",
+    "tailwind.config.js"
   ],
   "dependencies": {
     "eslint-config-next": "^12.0.8",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-react": "7.28.0"
+    "eslint-plugin-react": "7.28.0",
+    "ui": "*"
   }
 }
