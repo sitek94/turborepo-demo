@@ -5,7 +5,5 @@
   "compilerOptions": {
     "noEmit": true,
     "module": "commonjs"
-  },
-  "include": ["**/*.ts"],
-  "exclude": ["node_modules"]
+  }
 }

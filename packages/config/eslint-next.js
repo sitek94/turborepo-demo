@@ -9,4 +9,12 @@ module.exports = {
     '@next/next/no-html-link-for-pages': 'off',
     'react/jsx-key': 'off',
   },
+  ignorePatterns: [
+    '**/*.json',
+    '**/*.js',
+    '**/node_modules',
+    '.next',
+    '.turbo',
+    'public',
+  ],
 }
