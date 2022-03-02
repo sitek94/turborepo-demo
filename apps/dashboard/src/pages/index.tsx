@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import { Button } from 'ui'
+import { Button, Card } from 'ui'
 
 const Home: NextPage = () => {
   return (
@@ -12,8 +12,10 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">Dashboard</h1>
-        <Button />
+        <h1 className="text-6xl font-bold mb-8">Dashboard</h1>
+        <Card>
+          <Button />
+        </Card>
       </main>
 
       <footer className="flex h-24 w-full items-center justify-center border-t">
